@@ -1,0 +1,13 @@
+.container img {
+    max-width: 120px;
+    max-height: 120px;
+}
+
+div {}
+
+#botao {
+    padding: 20px 20px;
+    background-color: greenyellow;
+    border: 3px;
+    border-color: black;
+}

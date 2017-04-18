@@ -1,0 +1,43 @@
+Eventos // são interações com documento web. qq ocorrencia interativa com html
+* tipos
+	formulário
+	mouse
+	teclado
+	mutação
+* manipuladores // são as funções a serem executadas qdo um evento ocorrer
+	html
+	Dom 0
+	Dom 2
+* Objeto Event // disparador de evento é o próprio elemento html
+* programaçao
+* chamada de Evento
+
+// disparador de evento é o próprio elemento html
+exemplo de eventos.
+clique
+passar o mouse
+
+manipulador de even
+
+revendo
+evento é o clique
+manipulador de evento é a função javascript associada ao evento no elemento
+o elemento é chamado de disparador de evento.
+
+alguns disparadores tem o seu manipulador de evento padrão.
+exemploe
+um link, qdo é clicado. o browser já tem um manipulador de evento padrao.
+que é levar o internalta ao endereço associado no atributo href do link.
+
+nós temos como associar um outro evento substituindo o manipulador de evento padrao
+do elemento no browser.
+
+é possivel cancelar a acao do manipulador padrao do evento browser
+colocando a declaracao:
+ return false.
+
+ no manipulador de evento customizado  - personalizado
+ 
+ como atrelar um manipulador a um disparador de evento.
+ 
+ pelo html, por api dom 0 a api dom 2
